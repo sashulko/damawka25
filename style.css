@@ -1,0 +1,31 @@
+:root{
+    --first-color:rgba(212, 40, 83, 0.467);
+    --second-color:#4395d8;
+    --third-color:#48e98b;
+}
+
+ .square {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+     align-items: center;
+     
+    }
+    .square:nth-child(1) {
+        background-color: var(--first-color);
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .square:nth-child(2) {
+        background-color: #4395d8;
+      top: 40px;
+      left: 50px;
+    ;
+    }
+    .square:nth-child(3) {
+        background-color: #48e98b;
+      top: 100px;
+      left: 100px;  
+      z-index: -1;
+    }
